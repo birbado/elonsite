@@ -1,0 +1,98 @@
+/* body{
+    background-image: url("rocket.jpg");
+
+} */
+
+.parallax{
+    min-height: 400px;
+    background-image: url("rocket.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.parallax2{
+    min-height: 400px;
+    background-image: url("elon standing.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    /* position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0; */
+  }
+
+/* .verticalStrip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: grey;
+    height:100%;
+  } */
+  
+  /* .content {
+    padding-left: 250px;
+  } */
+
+div{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+h1,h2{
+    vertical-align: middle;
+    line-height: 140px;
+    position: fixed
+}
+
+.button {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    width: 200px;
+    text-align: center;
+    /* text-decoration: none; */
+    transition: all 0.5s;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
